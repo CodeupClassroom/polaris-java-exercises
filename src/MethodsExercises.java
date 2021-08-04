@@ -121,6 +121,32 @@ public class MethodsExercises {
 
     }
 
+    public static int getRandomNumber(int min, int max) {
+        return (int) ((Math.random() * (max - min)) + min);
+    }
+
+    public static void diceRoll(){
+        Scanner userInput = new Scanner(System.in);
+
+        System.out.println("Give me the number of sides your dice has.");
+        int numberOfSide = getInteger(2,20);
+
+        int firstRoll = getRandomNumber(1,numberOfSide);
+        int secondRoll = getRandomNumber(1,numberOfSide);
+
+        System.out.printf("first Die ==> %d\nsecond Die ==> %d\n",firstRoll,secondRoll);
+
+        System.out.println("Would you like to continue?");
+        String usersResponse = userInput.nextLine();
+        boolean doesUserWantToContinue = usersResponse.toLowerCase().contains("y");
+
+
+        if (doesUserWantToContinue){
+            diceRoll();
+        }
+
+    }
+
 
     public static void main(String[] args) {
 
@@ -133,11 +159,13 @@ public class MethodsExercises {
 //
 //        System.out.println("Your number in the range was " + getInteger(1,100));
 
-        getFactorial();
+//        getFactorial();
 
 //        System.out.println(getFactorialString(4));
 
 //        System.out.println(getFactorialSum(3));
+
+        diceRoll();
 
     }
 
