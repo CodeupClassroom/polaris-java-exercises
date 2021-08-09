@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>abstraction.FlightCapable</OriginalElement>
+  <nodes>
+    <node x="-70.25" y="-63.0">abstraction.FlightCapable</node>
+    <node x="369.5" y="80.0">abstraction.Snake</node>
+    <node x="0.0" y="235.0">abstraction.AnimalFarm</node>
+    <node x="0.0" y="160.0">abstraction.Parakeet</node>
+    <node x="274.0" y="0.0">abstraction.Animal</node>
+    <node x="122.49999999999999" y="80.0">abstraction.Chicken</node>
+    <node x="489.49999999999994" y="80.0">abstraction.Pig</node>
+    <node x="257.5" y="80.0">abstraction.Duck</node>
+    <node x="18.5" y="80.0">abstraction.Bird</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="abstraction.Chicken" target="abstraction.Animal" relationship="GENERALIZATION">
+      <point x="28.75" y="-15.0" />
+      <point x="208.75" y="50.0" />
+      <point x="326.5" y="50.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstraction.Duck" target="abstraction.FlightCapable" relationship="REALIZATION">
+      <point x="-23.0" y="-15.0" />
+      <point x="280.5" y="60.0" />
+      <point x="10.25" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstraction.Snake" target="abstraction.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="419.5" y="50.0" />
+      <point x="326.5" y="50.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstraction.Bird" target="abstraction.FlightCapable" relationship="REALIZATION">
+      <point x="-21.0" y="-15.0" />
+      <point x="39.5" y="60.0" />
+      <point x="10.25" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstraction.Pig" target="abstraction.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="528.0" y="50.0" />
+      <point x="326.5" y="50.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstraction.Chicken" target="abstraction.FlightCapable" relationship="REALIZATION">
+      <point x="-28.75" y="-15.0" />
+      <point x="151.25" y="55.0" />
+      <point x="10.25" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstraction.Duck" target="abstraction.Animal" relationship="GENERALIZATION">
+      <point x="23.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstraction.Parakeet" target="abstraction.Bird" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="abstraction.Bird" target="abstraction.Animal" relationship="GENERALIZATION">
+      <point x="21.0" y="-15.0" />
+      <point x="81.5" y="50.0" />
+      <point x="326.5" y="50.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="283.5" y="132.5" />
+  <SelectedNodes>
+    <node>abstraction.FlightCapable</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
