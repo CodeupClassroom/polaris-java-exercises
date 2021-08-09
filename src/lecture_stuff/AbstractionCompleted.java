@@ -40,8 +40,18 @@ public class AbstractionCompleted {
 
         show array of FlyingAnimals
 
+        show default interface method
+           glide()
 
+*       summary
+        abstract classes when it doesn't make sense to instantiate a class of it (like Animal)
+            single inheritance problem
+            IS A
 
+*       interfaces when you want to define an additional behavior for any class to use
+            CAN ALSO DO THIS BEHAVIOR
+            multiple interfaces
+            default methods for shared code
 
          */
     }
