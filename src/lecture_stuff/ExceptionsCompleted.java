@@ -49,6 +49,8 @@ public class ExceptionsCompleted {
 
         // show a finally as part of Exception handler
 
+        // show try/catch/finally SCOPE
+
         // show printStackTrace
 
         // introduce Exception compared to RuntimeException
@@ -82,7 +84,7 @@ public class ExceptionsCompleted {
         // make ValidationException
         // make a Widget class with a name field and some getters/setters
         // make a Main class
-        // add a validator method for a name field. throws a ValidationException
+        // add a validator method for a name field
         // test
         // throw the exception in the class constructor
         // test
