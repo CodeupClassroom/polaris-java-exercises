@@ -24,14 +24,14 @@ public class Input {
     }
 
     public int getInt(int min, int max) {
-        System.out.println("Give me an integer: ");
+//        System.out.println("Give me an integer: ");
         int userInt = scanner.nextInt();
 
         if (userInt < min || userInt > max) {
-            System.out.println("Try again!");
+            System.out.println("Invalid input! Try again!");
             return getInt(min, max);
         } else {
-            System.out.println("That's a valid integer.");
+//            System.out.println("That's a valid integer.");
             return userInt;
         }
     }
