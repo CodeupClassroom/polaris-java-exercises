@@ -6,76 +6,76 @@ import java.util.HashMap;
 public class CollectionsDemo {
     public static void main(String[] args) {
 
-//        ArrayList<String> lastNames = new ArrayList<>();
+        ArrayList<String> lastNames = new ArrayList<>();
+
+        lastNames.add("Wallace");
+        lastNames.add("Thompson");
+        lastNames.add("Smith");
+
+        System.out.println(lastNames);
+
+        //Java Array/add
+//        String [] lastNames2 = new String[10];
+//        lastNames2 = Arrays.copyOf(lastNames2, lastNames2.length + 1);
+//        lastNames2[lastNames2.length - 1] = "Wallace";
+
+
+        //.size method example:
+        System.out.println("The size of the lastNames array list is: " + lastNames.size() + "\n");
+
+
+        //.get method example:
+        System.out.println("The element value returned will be 'Wallace :" + lastNames.get(0) + "\n");
+
+        //.contains method example:
+        System.out.println("We are checking to see if 'Wallace' is an element in the array list: " + lastNames.contains("Wallace") + "\n");
+
+        //.remove method example:
+        System.out.println(lastNames);
+        lastNames.remove(0);
+        lastNames.remove("Smith");
+        System.out.println(lastNames);
+
+        //Reversing an Array List (Doc Rob):
+//        ArrayList<String> someStrings = new ArrayList<>();
+//        someStrings.add("bob");
+//        someStrings.add("tom");
+//        someStrings.add("sue");
 //
+//        System.out.println("In normal order:");
+//        for (String aString : someStrings) {
+//            System.out.println(aString);
+//        }
+//
+//        System.out.println("In REVERSE order:");
+//        for (int i = someStrings.size() - 1; i >= 0 ; i--) {
+//            System.out.println(someStrings.get(i));
+//        }
+
+
+          // John's reverse solution:
+//        Arrays.sort(arr, Collections.reverseOrder());
+//
+//        System.out.printf("Modified arr[] : %s",
+//                Arrays.toString(arr));
+
+
+//      .isEmpty method example:
+        System.out.println(lastNames.isEmpty()); //false
+
+
+        //.lastIndexOf method example:
 //        lastNames.add("Wallace");
 //        lastNames.add("Thompson");
-//        lastNames.add("Smith");
-//
-//        System.out.println(lastNames);
-//
-//        //Java Array/add
-////        String [] lastNames2 = new String[10];
-////        lastNames2 = Arrays.copyOf(lastNames2, lastNames2.length + 1);
-////        lastNames2[lastNames2.length - 1] = "Wallace";
-//
-//
-//        //.size method example:
-//        System.out.println("The size of the lastNames array list is: " + lastNames.size() + "\n");
-//
-//
-//        //.get method example:
-//        System.out.println("The element value returned will be 'Wallace :" + lastNames.get(0) + "\n");
-//
-//        //.contains method example:
-//        System.out.println("We are checking to see if 'Wallace' is an element in the array list: " + lastNames.contains("Wallace") + "\n");
-//
-//        //.remove method example:
-//        System.out.println(lastNames);
-//        lastNames.remove(0);
-//        lastNames.remove("Smith");
-//        System.out.println(lastNames);
-//
-//        //Reversing an Array List (Doc Rob):
-////        ArrayList<String> someStrings = new ArrayList<>();
-////        someStrings.add("bob");
-////        someStrings.add("tom");
-////        someStrings.add("sue");
-////
-////        System.out.println("In normal order:");
-////        for (String aString : someStrings) {
-////            System.out.println(aString);
-////        }
-////
-////        System.out.println("In REVERSE order:");
-////        for (int i = someStrings.size() - 1; i >= 0 ; i--) {
-////            System.out.println(someStrings.get(i));
-////        }
-//
-//
-//          // John's reverse solution:
-////        Arrays.sort(arr, Collections.reverseOrder());
-////
-////        System.out.printf("Modified arr[] : %s",
-////                Arrays.toString(arr));
-//
-//
-////      .isEmpty method example:
-//        System.out.println(lastNames.isEmpty()); //false
-//
-//
-//        //.lastIndexOf method example:
-////        lastNames.add("Wallace");
-////        lastNames.add("Thompson");
-////        lastNames.add("Thompson");
-//        System.out.println(lastNames.lastIndexOf("Thompson"));
-//
-//        //First index of an element:
-//        System.out.println(lastNames.indexOf("Thompson"));
-//        System.out.println(lastNames);
-//
-//
+//        lastNames.add("Thompson");
+        System.out.println(lastNames.lastIndexOf("Thompson"));
 
+        //First index of an element:
+        System.out.println(lastNames.indexOf("Thompson"));
+        System.out.println(lastNames);
+
+
+/////////////////////////////////////////////////////////////////////////
 
 
         //Syntax for creating a hash map:
@@ -134,14 +134,6 @@ public class CollectionsDemo {
         //.isEmpty() method example:
         usernames.isEmpty();
         System.out.println("Returns the boolean true if hash map is empty: " + usernames.isEmpty());
-
-
-
-
-
-
-
-
 
     }
 }
