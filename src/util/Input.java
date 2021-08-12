@@ -12,14 +12,15 @@ public class Input {
     }
 
     public String getString() {
-        System.out.println("Type Something: ");
+//        System.out.println("Type Something: ");
         String userString = scanner.nextLine();
         return userString;
     }
 
     public boolean yesNo() {
-        System.out.println("Select (y/n):");
+//        System.out.println("Select (y/n):");
         String userAnswer = scanner.next();
+        scanner.nextLine();
         return userAnswer.equals("y");
     }
 
