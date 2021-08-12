@@ -56,16 +56,16 @@ public class ExceptionsCompleted {
         // introduce Exception compared to RuntimeException
         //  Exceptions are checked, RuntimeExceptions are unchecked
 
-        // mention Error class
-
         // passing the buck with throws
-            // create a function foo
-            // throw an Exception
-            // handle it with try/catch and then handle it with throws
+        // create a function foo
+        // throw an Exception
+        // handle it with try/catch and then handle it with throws
 
         // difference between checked and unchecked
             // uncle bob's preference
-            // highlight THROWS shows up in auto-complete/micro-helpf
+            // highlight THROWS shows up in auto-complete/micro-help
+
+        // mention Error class
 
         // custom exceptions
             // useful for providing a multi-exception container
@@ -81,14 +81,10 @@ public class ExceptionsCompleted {
             // don't try/catch everything. use throws if you want the caller to deal with the error
             //      BUT don't be a wimp!!! this should be a design decision
 
-        // make ValidationException
-        // make a Widget class with a name field and some getters/setters
-        // make a Main class
-        // add a validator method for a name field
-        // test
-        // throw the exception in the class constructor
-        // test
-        // in Main class, put a try/catch around the Widget instantiation
+        // make BadInputException
+        // make a function that calls getInt in Input
+        // make a Main class that calls that function until it gets back a valid choice
+        //
 
     }
 }
