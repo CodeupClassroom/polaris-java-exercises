@@ -21,6 +21,11 @@ public class Person {
         System.out.println("Hello, " + name);
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
+
     public static void main(String[] args) {
 //        Person ry = new Person("Ry");
 
