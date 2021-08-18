@@ -16,8 +16,4 @@ public class Duck extends Animal implements FlightCapable {
         System.out.println("Flies nicely");
     }
 
-    @Override
-    public void glide() {
-        System.out.println("Glides pretty well");
-    }
 }
